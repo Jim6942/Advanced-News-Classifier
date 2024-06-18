@@ -1,3 +1,5 @@
+[DISCLAIMER]: Github mistakenly shows that the program is written in HTML but it is incorrect. It is programmed entirely in Java.
+
 Advanced News Classifier
 
 This project is an implementation of an advanced news classifier using GloVe embeddings and machine learning techniques. The classifier was built as part of an assignment for the Object Oriented Programming course at the University of Birmingham. The objective is to improve upon traditional TF-IDF and Cosine Similarity methods by leveraging the power of word embeddings and neural networks.
