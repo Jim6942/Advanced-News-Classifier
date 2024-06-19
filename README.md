@@ -1,16 +1,20 @@
 [DISCLAIMER]: Github mistakenly shows that the program is written in HTML but it is incorrect. It is programmed entirely in Java.
+-
 
 Advanced News Classifier
+-
 
 This project is an implementation of an advanced news classifier using GloVe embeddings and machine learning techniques. The classifier was built as part of an assignment for the Object Oriented Programming course at the University of Birmingham. The objective is to improve upon traditional TF-IDF and Cosine Similarity methods by leveraging the power of word embeddings and neural networks.
 
 Project Structure
+-
 
 The project is divided into several tasks, each focusing on different aspects of the classifier. Below is a brief overview of each task and its components:
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Task 1: Glove.java
+-
 
 This task involves creating a class to handle GloVe embeddings.
 
@@ -23,6 +27,7 @@ Additional methods to handle various functionalities required for the classifier
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Task 2: NewsArticles.java
+-
 
 This task focuses on handling news articles.
 
@@ -33,6 +38,7 @@ Task 2.1 - Task 2.7: These methods involve processing and managing news article 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Task 3: HtmlParser.java
+-
 
 This task involves parsing HTML content to extract necessary information.
 
@@ -45,6 +51,7 @@ getLabel(String _htmlCode): Extracts the label from the HTML code.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Task 4: Toolkit.java
+-
 
 This task involves creating utility methods to load GloVe embeddings and news articles.
 
@@ -56,6 +63,7 @@ loadNews(): Loads news articles from the given dataset.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Task 5: ArticlesEmbedding
+-
 
 This task focuses on creating embeddings for articles.
 
@@ -72,6 +80,7 @@ getEmbedding(): Generates and returns the embedding for the article.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Task 6: AdvancedNewsClassifier
+-
 
 This is the main task where the classifier is constructed and trained.
 
@@ -91,6 +100,7 @@ printResults(): Prints the classification results.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 The following is the instruction to run the code.
+-
 
 Step 1: Clone the repository:
 
